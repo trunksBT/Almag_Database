@@ -71,7 +71,7 @@ public:
             }
          }
       }
-      if (0 == matchingElements.size())
+      if (matchingElements.empty())
       {
          LOG(debug) << " DB doesn't contains " << searchedType;
       }
